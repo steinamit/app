@@ -1,18 +1,32 @@
 # Employee Pricing Calculator
 
-A Streamlit calculator that turns an employee's salary and employer costs into a monthly price to charge a client.
+> Turn an employee's salary and employer costs into a monthly price to charge a client, in seconds.
 
-**Context:** personal tool · **Author:** Amit Stein
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 
-## What it does
-- **Inputs:** gross salary, bonus, reimbursements, pension and severance %, employer national insurance %, other benefits, overhead % and profit margin %.
-- **Output:** a breakdown of direct cost, overhead and profit, and the final monthly client price.
-- **History:** every calculation is saved to a CSV and the last 50 are shown.
+## Highlights
 
-## Run
+- Cost-plus model: direct cost, overhead and margin.
+- Clear breakdown and a final monthly client price.
+- Saved history of the last 50 calculations.
+
+## Inputs
+
+Gross salary, bonus, reimbursements, pension and severance %, employer national insurance %, other benefits, overhead % and profit margin %.
+
+## Repository structure
+
+| Path | Description |
+|---|---|
+| `streamlit_app.py` | The app |
+
+## Getting started
+
 ```bash
 pip install streamlit pandas
 streamlit run streamlit_app.py
 ```
 
-**Tools:** Python · Streamlit · pandas
+## Context
+
+Personal tool by Amit Stein.
